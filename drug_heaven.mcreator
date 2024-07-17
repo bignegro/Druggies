@@ -1,14 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Drugs",
-      "type": "code",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "drugs"
-    },
-    {
       "name": "Cocaine",
       "type": "item",
       "sortid": 2,
