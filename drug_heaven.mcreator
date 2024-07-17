@@ -1,0 +1,99 @@
+{
+  "mod_elements": [
+    {
+      "name": "Drugs",
+      "type": "code",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "drugs"
+    },
+    {
+      "name": "Cocaine",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine"
+    },
+    {
+      "name": "CrackEffects",
+      "type": "function",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crack_effects"
+    },
+    {
+      "name": "CocainePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_player_finishes_using_item"
+    },
+    {
+      "name": "CocaineRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thegun",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thegun"
+    },
+    {
+      "name": "SpinningTheBlock",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinning_the_block"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.spinning_the_block.title": "Spinning The Block",
+      "advancements.spinning_the_block.descr": "Spin the block on those opps",
+      "block.drug_heaven.thegun": "Thegun"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "drug_heaven",
+    "modName": "Drug Heaven",
+    "version": "1.0.0",
+    "author": "Thomas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.crackcocaine.drugheaven",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

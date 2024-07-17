@@ -1,0 +1,9 @@
+{
+  "_fv": 33,
+  "_type": "function",
+  "definition": {
+    "code": "/effect @p strength 2 90\n/effect @p haste 3 90\n/effect @p nausea 1 90\n/effect @p speed 3 90\n\n:crack_effects",
+    "name": "crack_effects",
+    "namespace": "mod"
+  }
+}

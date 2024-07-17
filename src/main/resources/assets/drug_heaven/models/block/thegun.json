@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "up": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "north": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "east": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "south": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "west": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30",
+    "particle": "drug_heaven:blocks/6888108803c6a085a742df15d5e7dd30"
+  }
+}

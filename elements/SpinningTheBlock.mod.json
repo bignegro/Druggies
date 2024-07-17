@@ -1,0 +1,25 @@
+{
+  "_fv": 33,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Spinning The Block",
+    "achievementDescription": "Spin the block on those opps",
+    "achievementIcon": {
+      "value": "CUSTOM:Thegun"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 250,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"127\" y=\"80\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Thegun</field></block></value><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}
